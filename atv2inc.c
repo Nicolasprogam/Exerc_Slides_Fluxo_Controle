@@ -6,11 +6,11 @@ int main() {
     int num1, num2;
     char operacao;
 
-    printf("Digite dois números: ");
-    scanf("%d %d", &num1, &num2);
+    printf("Digite dois números e um operador (+,-,*,/) ");
+    scanf("%d %d %c", &num1, &num2, &operacao);
 
-    printf("Digite uma operação : ");fflush(stdin);
-    scanf(" %c", &operacao); 
+   fflush(stdin);
+
 
     switch (operacao) {
         case '+':
